@@ -1055,7 +1055,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b3e988847ea434c40b65f2f8e343e0b2, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2617,7 +2617,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4437131591417502300, guid: 3789077cff91e5044845e459ba8ebda1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.83
+      value: -115.37062
       objectReference: {fileID: 0}
     - target: {fileID: 4437131591417502300, guid: 3789077cff91e5044845e459ba8ebda1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2625,7 +2625,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4437131591417502300, guid: 3789077cff91e5044845e459ba8ebda1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.07
+      value: -22.969997
       objectReference: {fileID: 0}
     - target: {fileID: 4437131591417502300, guid: 3789077cff91e5044845e459ba8ebda1, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4092,11 +4092,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -7984075938065862707, guid: 3789077cff91e5044845e459ba8ebda1, type: 3}
       propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7984075938065862707, guid: 3789077cff91e5044845e459ba8ebda1, type: 3}
       propertyPath: onTriggerEnter.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7984075938065862707, guid: 3789077cff91e5044845e459ba8ebda1, type: 3}
       propertyPath: onTriggerExit.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -4244,7 +4244,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4437131591417502300, guid: 3789077cff91e5044845e459ba8ebda1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -28.299385
+      value: -146.5
       objectReference: {fileID: 0}
     - target: {fileID: 4437131591417502300, guid: 3789077cff91e5044845e459ba8ebda1, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4252,7 +4252,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4437131591417502300, guid: 3789077cff91e5044845e459ba8ebda1, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -20.1
+      value: -43
       objectReference: {fileID: 0}
     - target: {fileID: 4437131591417502300, guid: 3789077cff91e5044845e459ba8ebda1, type: 3}
       propertyPath: m_LocalRotation.w

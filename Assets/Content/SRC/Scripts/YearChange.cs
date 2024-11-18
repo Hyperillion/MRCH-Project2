@@ -49,19 +49,19 @@ public class YearChange : MonoBehaviour
         }
         else if (position.z < pos2)
         {
-            currentYear = year2;
+            currentYear = limitMap(position.z, pos1, pos2, year1, year2);
         }
         else if (position.z < pos3)
         {
-            currentYear = year3;
+            currentYear = limitMap(position.z, pos2, pos3, year2, year3);
         }
         else if (position.z < pos4)
         {
-            currentYear = year4;
+            currentYear = limitMap(position.z, pos3, pos4, year3, year4);
         }
         else if (position.z < pos5)
         {
-            currentYear = year5;
+            currentYear = limitMap(position.z, pos4, pos5, year4, year5);
         }
         yearText.text = currentYear.ToString();
     }
